@@ -26,7 +26,7 @@ To use this random password generator, navigate to https://msjamesm.github.io/Ra
 
 ## Screenshot
 
-![Application Screenshot](index-screenshot.png)
+![Application Screenshot](index-screenshot.jpg)
 
 ## Credits
 

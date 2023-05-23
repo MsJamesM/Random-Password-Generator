@@ -30,7 +30,21 @@ To use this random password generator, navigate to https://msjamesm.github.io/Ra
 
 ## Credits
 
-Original files for this project were provided by Denver University's Coding Boot Camp (in partnership with edX).
+Original files for this project were provided by Denver University's Coding Boot Camp (in partnership with edX). I also viewed and referenced materials from the following authors and resources:
+
+https://www.w3schools.com
+
+https://developer.mozilla.org
+
+https://stackoverflow.com
+
+https://www.freecodecamp.org/
+
+https://github.com/Nitij
+
+https://github.com/WebDevSimplified
+
+https://www.youtube.com/@Fireship
 
 ## License
 

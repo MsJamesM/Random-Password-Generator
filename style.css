@@ -35,11 +35,16 @@ header {
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
-  font-size: 18px;
+  color: hsl(207, 5%, 43%);
+  font-size: 16px;
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+}
+
+h3 {
+  color: hsl(206, 17%, 28%);
+  font-size: 18px;
 }
 
 .card-header::after {
@@ -74,7 +79,7 @@ header {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(0, 152, 63);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -86,6 +91,10 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+}
+
+.btn:active {
+  background-color: rgb(0, 124, 52);
 }
 
 button[disabled] {
@@ -104,10 +113,10 @@ button[disabled] {
   border: none;
   display: block;
   width: 100%;
-  padding-top: 15px;
+  padding-top: 50px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 85px;
+  padding-bottom: 50px;
   font-size: 1.2rem;
   text-align: center;
   margin-top: 10px;

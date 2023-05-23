@@ -28,11 +28,11 @@ function generatePassword(length, numbers, caps, nocaps, symbols) {
   }
 
   if (length > maxLength) {
-    return "Password cannot exceed 128 characters"
+    return "Error: password cannot exceed 128 characters"
   }
 
   if (length < minLength) {
-    return "Password must exceed 8 characters"
+    return "Error: password must exceed 8 characters"
   }
 
 

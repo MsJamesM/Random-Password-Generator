@@ -1,15 +1,17 @@
-
-function generate() {
+// establishes HTML references
+function generate() { 
   var length = document.getElementById('length').value;
-  var numbers = document.getElementById('numbers').checked;
-  var nocaps = document.getElementById('nocaps').checked;
   var caps = document.getElementById('caps').checked;
+  var nocaps = document.getElementById('nocaps').checked;
+  var numbers = document.getElementById('numbers').checked;
   var symbols = document.getElementById('symbols').checked;
   
-  var password = generatePassword(parseInt(length), numbers, caps, nocaps, symbols);
+  // displays new password in display area
+  var password = generatePassword(parseInt(length), caps, nocaps, numbers, symbols);
   document.getElementById('displayArea').innerHTML = password;
   
-function generatePassword(length, numbers, caps, nocaps, symbols) {
+  // creates random password
+function generatePassword(length, caps, nocaps, numbers, symbols) {
   let characters = '';
   let maxLength = 128;
   let minLength = 8;
@@ -35,7 +37,7 @@ function generatePassword(length, numbers, caps, nocaps, symbols) {
     return "Error: password must exceed 8 characters"
   }
 
-
+// randomizes characters in password
   let passwordArray = [];
   while (passwordArray.length < length) {
     var character = characters[Math.floor(Math.random() * characters.length)];
